@@ -1,0 +1,53 @@
+html, body {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* primariy */
+/* font-family: 'Patua One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+/* sucondary */
+/* font-family: 'Exo 2', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i');
+/* text - contain */
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/*
+Yusuke Murata
+Vasili Zorin
+Mau Lencinas
+Marc Silvestri
+Dustin Weaver
+   */
+
+:root {
+  /* Theming color */
+  --primary-color-light: #F1ECEF;
+  --secondary-color-light:#6EA9C0;
+  --primary-color: #302b32;
+  --secondary-color-dark: blueviolet;
+  --primary-color-dark: #232330;
+  
+
+  --success-color: #43935c;
+  --warning-color: #F1BD2F;
+  --danger-color: #f44336;
+  /* Media query */
+
+  
+}
+
+* {
+  font-family: 'Rubik', sans-serif;;
+}
+
+h1, h2 {
+  font-family: 'Patua One', cursive;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.8em;
+  font-style: italic;
+  font-family: 'Exo 2', sans-serif;
+}

@@ -1,0 +1,39 @@
+.navCss { display: block};
+.footerCss { display: block};
+
+.contain {
+  max-width: 950px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+.positionNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.positionNavFinal {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+
+.positionFooter {
+  position: fixed;
+  bottom: -20px;
+  width: 100%;
+  transition: 0.5s;
+}
+.positionFooterFinal{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;  
+}
+
+@media (min-width: 800px) {
+  .navCss {
+    display: none;
+  }
+}
