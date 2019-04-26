@@ -6,15 +6,19 @@ h3 {
   font-size: 1em;
 }
 
+ul li {
+  text-decoration: none;
+}
+
 .container {
   position: relative;
-  margin-top: 50px;
-  margin-bottom: -50px;
+  margin-top: 60px;
+  height: 1500px;
 }
 .gout {
   position: sticky;
   top: 15%;
-  width: 125px;
+  width: 120px;
   height: 25px;
   padding-top: 5px;
   border-radius: 15PX;
@@ -34,7 +38,6 @@ h3 {
 }
 .buttonCursos{
   cursor: pointer; 
-  /* width: 150px; */
   padding: 6px;
   border-radius: 8px;
   margin-top: 40px;
@@ -56,6 +59,6 @@ h3 {
   height: 0px;
 }
 .boxCursosActivo {
-  height: 580px;
+  height: 800px;
   opacity: 1;
 }

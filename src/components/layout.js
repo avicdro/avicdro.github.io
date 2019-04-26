@@ -18,12 +18,6 @@ import {
 
 
 class Layout extends React.Component {
-  constructor(props){
-    super(props);
-    this.movile = true;
-  }
-
-
   // Event control scroll
   scrollControl = () => {
     const footer = document.getElementsByClassName(footerCss)[0];

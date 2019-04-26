@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(25px,1fr));
   background-color: rgb(236, 236, 236);
   text-align: center;
   margin: 0%;
