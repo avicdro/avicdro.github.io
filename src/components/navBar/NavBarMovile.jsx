@@ -34,7 +34,7 @@ const NavBarMobile = () => {
         <ButtonNav title="Estudios" icon="certificate" link="study"/>
         <ButtonNav title="Practicas" icon="puzzle" link="practices" />
         {/* <ButtonNav title="Proyectos" icon="agenda" link="proyects"/> */}
-        <ButtonNav title="Contato" icon="conversation" link="contact"/>
+        <ButtonNav title="Contacto" icon="conversation" link="contact"/>
       </nav>
     </div>
   );

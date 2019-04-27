@@ -28,7 +28,7 @@ const Nav = () => {
         <NavElement title="Sobre mi" icon="employee" link="#about" />
         <NavElement title="Estudios" icon="certificate" link="study" />
         <NavElement title="Practicas" icon="puzzle" link="practices" />
-        <NavElement title="Contato" icon="conversation" link="contact" />
+        <NavElement title="Contacto" icon="conversation" link="contact" />
       </nav>
     </div>
   )
