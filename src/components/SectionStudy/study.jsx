@@ -33,19 +33,19 @@ export default class SectionEstudio extends Component {
       <div className={styles.gout}> 2016 </div>
         <div className={styles.study}>
           <h2>Bachiller en ciencias</h2>
-          <h3>Unidad Educativa Madre Isabel</h3>
+          <h3 className={styles.subTitle}>Unidad Educativa Madre Isabel</h3>
         </div>
     
         <div  className={styles.gout}> 2016 - 2018 </div>
         <div className={styles.study}>
           <h2>Universidad Central de Venezuela</h2>
-          <h3>(4 semestres)</h3>
+          <h3 className={styles.subTitle}>(4 semestres)</h3>
         </div>
     
         <div  className={styles.gout}> 2018 - 2019 </div>
           <div className={styles.study}>
         <h2>Cursos</h2>
-        <h3>Online en plataformas como freecodecamp, Udemy y platzy </h3>
+        <h3 className={styles.subTitle}>Online en plataformas como freecodecamp, Udemy y platzy </h3>
         <ul>
             <li>
               <a href="https://platzi.com/@avicdro/" target="_blank" rel="noopener noreferrer">Cursos de platzi</a>
