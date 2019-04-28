@@ -1,0 +1,45 @@
+.formContent {
+  width: 100%;
+  text-align: left;
+}
+label, input, textarea {
+  width: 100%;
+  font-size: 24px;
+}
+input {
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+} 
+textarea {
+  overflow-x: auto;
+  resize: vertical;
+}
+.buttonSubmit {
+  margin-left: 10%;
+  width: 80%;
+  height: 60px;
+  cursor: pointer;
+  padding: 10px 6px;
+  border-radius: 8px;
+  border: 2px solid blueviolet;
+  font-weight: bold;
+  background: blueviolet;
+  transition:  1s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.buttonSubmit:hover {
+  border-color: transparent;
+  background: linear-gradient(220deg, #ff00f5, #00aeff, #9fff00);
+  background-size: 600% 600%;
+  animation: fondoButtonHover 9s ease infinite;
+}
+
+@keyframes fondoButtonHover { 
+  0%{background-position:84% 0%}
+  50%{background-position:17% 100%}
+  100%{background-position:84% 0%}
+}

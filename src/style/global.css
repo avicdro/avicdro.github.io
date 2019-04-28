@@ -14,13 +14,13 @@ html, body {
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 /*
-Yusuke Murata
-Vasili Zorin
-Mau Lencinas
-Marc Silvestri
-Dustin Weaver
-   */
-
+Artist fv
+  Yusuke Murata
+  Vasili Zorin
+  Mau Lencinas
+  Marc Silvestri
+  Dustin Weaver
+*/
 :root {
   /* Theming color */
   --primary-color-light: #F1ECEF;
@@ -33,9 +33,6 @@ Dustin Weaver
   --success-color: #43935c;
   --warning-color: #F1BD2F;
   --danger-color: #f44336;
-  /* Media query */
-
-  
 }
 
 * {

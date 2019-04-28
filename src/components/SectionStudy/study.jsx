@@ -90,7 +90,7 @@ export default class SectionEstudio extends Component {
             </code>
           </pre>
             <center>
-          <sub>"Así es como se ve el árbol de directorios donde tengo los certificados <spam>😄</spam>"
+          <sub>"Así es como se ve el árbol de directorios donde tengo los certificados"
               <br /><br />
           *Se saca en el cmd de windows con el comando THREE*</sub>
             </center>

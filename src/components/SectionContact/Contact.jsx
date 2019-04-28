@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import styles from './Contact.module.css'
+import Mail from './Mail';
 
 const SocialNetwork = (props) => {
   return(
@@ -25,7 +26,10 @@ export default class Contact extends Component {
           <SocialNetwork name="Linkedin" href="https://www.linkedin.com/in/victor-alvarez-tallada-152563141/" />
           <SocialNetwork name="twitter" href="https://twitter.com/avicdro" />          
           <SocialNetwork name="GitHub" href="https://github.com/avicdro" />
-          <SocialNetwork name="Mail" href="https://avicdro@gmail.com" />          
+        </div>
+        <h1 className={styles.titleMail}>Mandar un mail</h1> 
+        <div className={styles.formContent}>
+          <Mail />
         </div>
       </div>
     )
